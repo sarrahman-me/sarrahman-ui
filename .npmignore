@@ -3,3 +3,5 @@
 **/*.stories.*
 .storybook
 public
+build-storybook.log
+chromatic.log
