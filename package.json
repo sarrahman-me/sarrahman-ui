@@ -9,6 +9,10 @@
     "type": "git",
     "url": "git+https://github.com/sarrahman-me/sarrahman-ui.git"
   },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -55,7 +59,6 @@
   "bugs": {
     "url": "https://github.com/sarrahman-me/sarrahman-ui/issues"
   },
-  "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/sarrahman-me/sarrahman-ui#readme",
   "_id": "sarrahman-ui@0.0.1"
 }
