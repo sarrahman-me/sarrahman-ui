@@ -1,7 +1,7 @@
 {
   "name": "sarrahman-ui",
-  "version": "0.2.5",
-  "description": "Modul UI kustom yang dibuat dengan tailwindcss",
+  "version": "0.2.6",
+  "description": "Ready to use Tailwindcss components",
   "author": {
     "name": "Muhammad Nur Rahman"
   },

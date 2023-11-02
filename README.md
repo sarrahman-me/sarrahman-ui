@@ -1,51 +1,25 @@
 # Sarrahman UI
 
-Deskripsi singkat tentang proyek dan tujuannya.
+Ready to use Tailwindcss components
+
+## Alasan pembuatan
+
+Saya saat ini sedang mengembangkan aplikasi yang membuat saya mengelola tampilan 3 situs web diwaktu yang sama padahal saya menggunakan component yang bisa dikatakan hampir sama di setiap situsnya bahkan mendekati sama. oleh karena itu saya memfokuskan pengembangan semua component aplikasi ini dalam satu paket npm yang bisa saya gunakan di setiap proyek saya sekarang bahkan untuk kedepannya juga. Proyek ini adalah awal perjalanan saya membangun design system sendiri menggunakan dasar tailwindcss dan typescript.
+
+saya masih pemula dalam segala bidang dan jika teman teman yang lebih hebat saya izinkan membuat kontribusi. terima kasih banyak.
 
 ## Instalasi
 
 Gunakan perintah berikut untuk menginstal paket ini melalui npm:
 
 ```
-npm install sarrahman-ui
+npm install sarrahman-ui tailwindcss postcss autoprefixer
 ```
-
-## Penggunaan
-
-Dalam proyek Anda, Anda dapat mengimpor dan menggunakan komponen ini sebagai berikut:
-
-```javascript
-import { Button, Textfield } from "sarrahman-ui";
-
-// Kemudian gunakan komponen-komponen ini dalam proyek Anda
-```
-
-## Contoh
-
-Anda dapat melihat contoh penggunaan komponen-komponen ini dalam folder `examples`.
-
-## Properti
-
-### Button
-
-- `label` (string): Label yang ditampilkan pada tombol.
-- `style` (object): Gaya CSS yang diterapkan pada tombol.
-- `onClick` (function): Fungsi yang dipanggil saat tombol diklik.
-
-### Textfield
-
-- `label` (string): Label yang ditampilkan di atas input teks.
-- `value` (string): Nilai input teks.
-- `onChange` (function): Fungsi yang dipanggil saat nilai input berubah.
 
 ## Dokumentasi Storybook
 
-Anda juga dapat melihat dokumentasi lengkap dan contoh penggunaan komponen di [dokumentasi Storybook](https://65419d1a29cb9a414b391412-spmjjtasbs.chromatic.com).
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan ikuti pedoman [CONTRIBUTING.md](CONTRIBUTING.md).
+Anda juga dapat melihat dokumentasi lengkap dan contoh penggunaan komponen di [dokumentasi Storybook](https://65419d1a29cb9a414b391412-ugggponeik.chromatic.com).
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).
+Proyek ini dilisensikan di bawah [Lisensi MIT](licence).

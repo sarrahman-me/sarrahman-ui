@@ -1,3 +1,11 @@
-import Button from "./Button";
+import { Typography } from "./data-display";
+import { Button, Textfield } from "./inputs";
 
-export { Button };
+export {
+  // inputs
+  Button,
+  Textfield,
+
+  // data display
+  Typography,
+};
