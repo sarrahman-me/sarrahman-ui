@@ -3,7 +3,7 @@ import "../../globals.css";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta: Meta<typeof Button> = {
-  title: "components/Button",
+  title: "Components/Inputs/Button",
   component: Button,
   parameters: {
     layout: "centered",
@@ -11,6 +11,7 @@ const meta: Meta<typeof Button> = {
   tags: ["autodocs"],
   argTypes: {
     icon: {
+      description: "menggunakan library react/icon",
       control: false,
     },
   },
