@@ -22,6 +22,7 @@ interface ButtonProps {
   onClick?: () => void;
   children: React.ReactNode;
   icon?: React.ReactNode;
+  color?: "indigo" | "lime";
 }
 
 const Button = ({
@@ -32,14 +33,23 @@ const Button = ({
   disabled,
   loading,
   icon,
+  color = "indigo",
   onClick,
 }: ButtonProps) => {
-  const classVariant = {
-    contained:
-      "border border-indigo-600 bg-indigo-600 text-white hover:bg-indigo-800 disabled:bg-gray-500 disabled:border-none",
+  const bgColor = {
+    indigo: "bg-indigo-600 hover:bg-indigo-800",
+    lime: "bg-lime-600 hover:bg-lime-800",
+  };
 
-    outlined:
-      "border-2 border-indigo-600 hover:shadow-md hover:border-indigo-500 disabled:border-gray-500",
+  const borderColor = {
+    indigo: "border-indigo-600",
+    lime: "border-lime-600",
+  };
+
+  const classVariant = {
+    contained: `border ${bgColor[color]} ${borderColor[color]}  text-white disabled:bg-gray-500 disabled:border-none`,
+
+    outlined: `border-2 ${borderColor[color]} hover:shadow-md disabled:border-gray-500`,
 
     text: "hover:bg-slate-200 dark:hover:bg-slate-800",
   };
