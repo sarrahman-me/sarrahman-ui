@@ -1,10 +1,11 @@
 import { Typography } from "./data-display";
-import { Button, Textfield } from "./inputs";
+import { Button, Textfield, Autocomplete } from "./inputs";
 
 export {
   // inputs
   Button,
   Textfield,
+  Autocomplete,
 
   // data display
   Typography,
