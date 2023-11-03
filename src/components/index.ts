@@ -1,5 +1,12 @@
 import { Typography } from "./data-display";
-import { Button, Textfield, Autocomplete, Checkbox, Select } from "./inputs";
+import {
+  Button,
+  Textfield,
+  Autocomplete,
+  Checkbox,
+  Select,
+  IconButton,
+} from "./inputs";
 
 export {
   // inputs
@@ -8,6 +15,7 @@ export {
   Autocomplete,
   Checkbox,
   Select,
+  IconButton,
 
   // data display
   Typography,
