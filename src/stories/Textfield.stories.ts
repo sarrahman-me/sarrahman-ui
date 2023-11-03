@@ -17,6 +17,8 @@ type Story = StoryObj<typeof meta>;
 export const Basic: Story = {
   name: "Penggunaan basic (outlined)",
   args: {
+    label: "Nama",
+    placeholder: "e.g Jhon Doe",
     name: "nama",
   },
 };
@@ -26,6 +28,14 @@ export const Variant: Story = {
   args: {
     variant: "standard",
     name: "nama",
+  },
+};
+
+export const Icon: Story = {
+  name: "Menggunakan Icon",
+  args: {
+    placeholder: "pencarian...",
+    icon: "🔎",
   },
 };
 

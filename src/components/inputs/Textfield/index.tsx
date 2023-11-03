@@ -54,11 +54,11 @@ const Textfield = ({
   otherClass,
 }: TextfieldProps) => {
   const borderColor = {
-    indigo: "border-indigo-600 ring-indigo-600",
-    lime: "border-lime-600 border-lime-600",
-    red: "border-red-600 border-red-600",
-    orange: "border-orange-600 border-orange-600",
-    green: "border-green-600 border-green-600",
+    indigo: "border-indigo-600 ring-indigo-600 caret-indigo-600",
+    lime: "border-lime-600 border-lime-600 caret-lime-600",
+    red: "border-red-600 border-red-600 caret-red-600",
+    orange: "border-orange-600 border-orange-600 caret-orange-600",
+    green: "border-green-600 border-green-600 caret-green-600",
   };
 
   const classColorBorder = {

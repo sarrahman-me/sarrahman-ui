@@ -82,7 +82,7 @@ function Autocomplete({
     error: `${borderColor.red}`,
   };
 
-  const classNameTextfield = `border text-left bg-white dark:bg-slate-800 focus:border-2 p-2 focus:outline-none disabled:border-gray-500 disabled:cursor-not-allowed w-full rounded-md 
+  const classNameTextfield = `border text-black dark:text-white text-left bg-white dark:bg-slate-800 focus:border-2 p-2 focus:outline-none disabled:border-gray-500 disabled:cursor-not-allowed w-full rounded-md 
   ${!error ? classColorBorder.default : classColorBorder.error}`;
 
   const classNameOptions = `mt-2 p-2 border ${borderColor[color]} bg-white dark:bg-slate-800 rounded-md shadow-md max-h-48 overflow-scroll`;
@@ -122,7 +122,7 @@ function Autocomplete({
                       ? bgColor[color].active
                       : selected
                       ? bgColor[color].inActive
-                      : ""
+                      : "text-black dark:text-white"
                   } cursor-pointer select-none p-2 rounded-md`}
                 >
                   {list[keyValue.value]}
