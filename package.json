@@ -64,6 +64,5 @@
   "bugs": {
     "url": "https://github.com/sarrahman-me/sarrahman-ui/issues"
   },
-  "homepage": "https://github.com/sarrahman-me/sarrahman-ui#readme",
-  "_id": "sarrahman-ui@0.0.1"
+  "homepage": "https://sarrahman-ui.vercel.app/"
 }
