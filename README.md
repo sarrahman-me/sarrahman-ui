@@ -1,25 +1,35 @@
 # Sarrahman UI
 
-Ready to use Tailwindcss components
+**Komponen Tailwind CSS untuk Pengembangan UI yang Mudah**
 
-## Alasan pembuatan
+Sarrahman UI adalah paket komponen Tailwind CSS yang komprehensif dirancang untuk menyederhanakan dan mempermudah proses pengembangan UI Anda. Baik Anda sedang mengerjakan beberapa situs web atau memerlukan komponen UI yang konsisten di berbagai proyek, Sarrahman UI siap membantu Anda.
 
-Saya saat ini sedang mengembangkan aplikasi yang membuat saya mengelola tampilan 3 situs web diwaktu yang sama padahal saya menggunakan component yang bisa dikatakan hampir sama di setiap situsnya bahkan mendekati sama. oleh karena itu saya memfokuskan pengembangan semua component aplikasi ini dalam satu paket npm yang bisa saya gunakan di setiap proyek saya sekarang bahkan untuk kedepannya juga. Proyek ini adalah awal perjalanan saya membangun design system sendiri menggunakan dasar tailwindcss dan typescript.
-
-saya masih pemula dalam segala bidang dan jika teman teman yang lebih hebat ingin berkontribusi saya izinkan. terima kasih banyak.
+Kami menyambut kontribusi dari para pengembang dengan berbagai tingkat keterampilan. Jika Anda bersemangat untuk meningkatkan dan memperluas kemampuan Sarrahman UI, kami menghargai dukungan dan keterlibatan Anda. Terima kasih!
 
 ## Instalasi
 
-Gunakan perintah berikut untuk menginstal paket ini melalui npm:
+Untuk mulai menggunakan Sarrahman UI, ikuti langkah-langkah instalasi berikut:
 
-```
-npm install sarrahman-ui tailwindcss postcss autoprefixer @headlessui/react
-```
+1. Instal dependensi yang diperlukan, termasuk Sarrahman UI:
+
+   ```bash
+   npm install sarrahman-ui tailwindcss postcss autoprefixer @headlessui/react
+   ```
+
+2. Inisialisasi proyek Tailwind CSS Anda:
+
+   ```bash
+   npx tailwindcss init
+   ```
+
+## Catatan Penting
+
+Untuk menghindari konflik versi dengan paket lain dalam proyek Anda, Sarrahman UI tidak secara otomatis menginstal dependensi apa pun. Penting untuk menyiapkan proyek Tailwind CSS Anda secara manual. Instruksi instalasi umum dapat ditemukan di [halaman dokumentasi resmi Tailwind CSS](https://tailwindcss.com/docs/installation).
 
 ## Dokumentasi Storybook
 
-Anda juga dapat melihat dokumentasi lengkap dan contoh penggunaan komponen di [dokumentasi Storybook](https://sarrahman-ui.vercel.app).
+Untuk panduan lengkap tentang komponen Sarrahman UI dan contoh penggunaan, silakan lihat [dokumentasi Storybook kami](https://sarrahman-ui.vercel.app).
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah [Lisensi MIT](licence).
+Proyek ini dilisensikan di bawah [Lisensi MIT](LICENSE).

@@ -35,16 +35,42 @@ export const Outlined: Story = {
   },
 };
 
-export const Disabled: Story = {
+export const Text: Story = {
+  name: "Basic (Text)",
   args: {
-    disabled: true,
+    variant: "text",
     children: "Button",
+  },
+};
+
+export const Icon: Story = {
+  name: "Menggunakan Icon",
+  args: {
+    children: "Button",
+    icon: "😍",
   },
 };
 
 export const Loading: Story = {
   args: {
     loading: true,
+    children: "Button",
+  },
+};
+
+export const LoadingIcon: Story = {
+  name: "Loading dengan Icon",
+  args: {
+    variant: "outlined",
+    children: "Button",
+    loading: true,
+    icon: "😍",
+  },
+};
+
+export const Disabled: Story = {
+  args: {
+    disabled: true,
     children: "Button",
   },
 };
