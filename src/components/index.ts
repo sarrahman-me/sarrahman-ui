@@ -1,4 +1,4 @@
-import { Typography } from "./data-display";
+import { Typography, ListData } from "./data-display";
 import {
   Button,
   Textfield,
@@ -21,4 +21,5 @@ export {
 
   // data display
   Typography,
+  ListData,
 };

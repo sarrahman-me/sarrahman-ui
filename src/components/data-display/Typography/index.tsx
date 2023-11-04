@@ -41,7 +41,7 @@ const Typography = ({
   };
 
   const classColor = {
-    primary: "text-slate-950 dark:text-slate-50",
+    primary: "text-black dark:text-white",
     secondary: "text-gray-500",
     danger: "text-red-500",
     success: "text-green-500",

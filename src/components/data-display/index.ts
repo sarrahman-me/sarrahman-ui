@@ -1,3 +1,4 @@
 import Typography from "./Typography";
+import ListData from "./listData";
 
-export { Typography };
+export { Typography, ListData };
