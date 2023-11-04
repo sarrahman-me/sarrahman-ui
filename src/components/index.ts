@@ -1,3 +1,4 @@
+import { Tabs } from "./Navigation";
 import { Typography, ListData } from "./data-display";
 import {
   Button,
@@ -22,4 +23,7 @@ export {
   // data display
   Typography,
   ListData,
+
+  // Navigation
+  Tabs,
 };
