@@ -23,7 +23,7 @@ type Story = StoryObj<typeof meta>;
 export const Basic: Story = {
   name: "Basic (contained)",
   args: {
-    icon: "ß",
+    icon: "🔍",
   },
 };
 
@@ -59,6 +59,6 @@ export const Click: Story = {
   name: "Handle Click",
   args: {
     onClick: () => alert("tombol di klik"),
-    icon: "Klik Aku",
+    icon: "み",
   },
 };

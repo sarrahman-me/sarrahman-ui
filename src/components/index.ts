@@ -6,6 +6,7 @@ import {
   Checkbox,
   Select,
   IconButton,
+  Toggle,
 } from "./inputs";
 
 export {
@@ -16,6 +17,7 @@ export {
   Checkbox,
   Select,
   IconButton,
+  Toggle,
 
   // data display
   Typography,
