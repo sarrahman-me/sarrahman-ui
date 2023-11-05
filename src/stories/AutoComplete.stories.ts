@@ -74,9 +74,6 @@ const top50Films = [
 const meta: Meta<typeof Autocomplete> = {
   title: "Components/Inputs/Autocomplete",
   component: Autocomplete,
-  parameters: {
-    layout: "centered",
-  },
   args: {
     lists: top50Films,
     keyValue: {
@@ -90,18 +87,9 @@ const meta: Meta<typeof Autocomplete> = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Label: Story = {
-  name: "Menggunakan Label",
+export const Basic: Story = {
   args: {
     label: "Films",
     placeholder: "Cari film",
-  },
-};
-
-export const Error: Story = {
-  name: "Error text",
-  args: {
-    error: "Password salah",
-    label: "Nama",
   },
 };

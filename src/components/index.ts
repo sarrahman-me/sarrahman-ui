@@ -9,6 +9,7 @@ import {
   IconButton,
   Toggle,
 } from "./inputs";
+import { Card } from "./surfaces";
 
 export {
   // inputs
@@ -26,4 +27,7 @@ export {
 
   // Navigation
   Tabs,
+
+  // surface
+  Card,
 };

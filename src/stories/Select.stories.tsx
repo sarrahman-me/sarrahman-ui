@@ -1,8 +1,9 @@
+import React, { useState } from "react";
 import { Select } from "../components";
 import "../../globals.css";
 import type { Meta, StoryObj } from "@storybook/react";
 
-const top50Films = [
+const top10Films = [
   { label: "The Shawshank Redemption", year: 1994, id: 1 },
   { label: "The Godfather", year: 1972, id: 2 },
   { label: "The Godfather: Part II", year: 1974, id: 3 },
@@ -22,11 +23,8 @@ const top50Films = [
 const meta: Meta<typeof Select> = {
   title: "Components/Inputs/Select",
   component: Select,
-  parameters: {
-    layout: "centered",
-  },
   args: {
-    lists: top50Films,
+    lists: top10Films,
   },
   tags: ["autodocs"],
 };
@@ -34,11 +32,18 @@ const meta: Meta<typeof Select> = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Label: Story = {
-  name: "Menggunakan Label",
-  args: {
-    label: "Films",
-    placeholder: "Pilih film...",
-    setValue: (value) => alert(value),
+export const Basic: Story = {
+  render: function Basic() {
+    const [film, setFilm] = useState("");
+
+    return (
+      <Select
+        label="Films"
+        placeholder="Pilih Film"
+        value={film}
+        setValue={setFilm}
+        lists={top10Films}
+      />
+    );
   },
 };

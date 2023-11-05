@@ -43,13 +43,15 @@ export const Label: Story = {
 export const Color: Story = {
   name: "warna",
   render: function BasicToggle() {
+    const [state, setState] = useState(false);
+
     return (
       <div className="flex items-center space-x-1">
-        <Toggle color="indigo" setValue={(a) => {}} value={true} />
-        <Toggle color="lime" setValue={(a) => {}} value={true} />
-        <Toggle color="red" setValue={(a) => {}} value={true} />
-        <Toggle color="orange" setValue={(a) => {}} value={true} />
-        <Toggle color="green" setValue={(a) => {}} value={true} />
+        <Toggle color="indigo" setValue={setState} value={state} />
+        <Toggle color="lime" setValue={setState} value={state} />
+        <Toggle color="red" setValue={setState} value={state} />
+        <Toggle color="orange" setValue={setState} value={state} />
+        <Toggle color="green" setValue={setState} value={state} />
       </div>
     );
   },

@@ -75,7 +75,7 @@ function Tabs({ pages, color = "indigo", variant = "contained" }: TabsProps) {
     <Tab.Group>
       {/* bagian list */}
 
-      <div className={`${bgColor[color].inActive} max-w-fit mx-auto mb-3`}>
+      <div className={`${bgColor[color].inActive} p-1 rounded max-w-fit mx-auto mb-3`}>
         <Tab.List className="flex divide-x-2 divide-transparent">
           {titles.map((list, i) => (
             <Tab key={i}>
