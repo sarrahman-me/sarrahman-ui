@@ -1,5 +1,5 @@
 import { Tabs } from "./Navigation";
-import { Typography, ListData } from "./data-display";
+import { Typography, ListData, Table } from "./data-display";
 import {
   Button,
   Textfield,
@@ -24,6 +24,7 @@ export {
   // data display
   Typography,
   ListData,
+  Table,
 
   // Navigation
   Tabs,
